@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===================== SEO META TAGS ===================== -->
+<title>ENSPACE Design Studio | Interior Design & Architecture Firm in Nashik</title>
+<meta name="description" content="ENSPACE Design Studio is a Nashik-based interior design and architecture studio designing residential, commercial, office and retail interiors — from concept to handover. Get a free consultation on WhatsApp.">
+<meta name="keywords" content="interior design Nashik, architecture firm Nashik, residential interior design Nashik, commercial interior design, office interior design, retail interior design, ENSPACE Design Studio">
+<meta name="robots" content="index, follow">
+<meta name="author" content="ENSPACE Design Studio">
+<link rel="canonical" href="https://www.enspacedesignstudio.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="ENSPACE Design Studio | Interior Design & Architecture Firm in Nashik">
+<meta property="og:description" content="Residential, commercial, office and retail interior design in Nashik — designed and built end to end by ENSPACE Design Studio.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop">
+<meta property="og:url" content="https://www.enspacedesignstudio.com/">
+<meta property="og:site_name" content="ENSPACE Design Studio">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ENSPACE Design Studio | Interior Design & Architecture Firm">
+<meta name="twitter:description" content="Residential, commercial, office and retail interior design — designed and built end to end.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop">
+
+<!-- Structured Data: LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "InteriorDesigner",
+  "name": "ENSPACE Design Studio",
+  "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+  "description": "Interior design and architecture studio in Nashik offering residential, commercial, office and retail design services.",
+  "telephone": "+91-88888-15633",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nashik",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 20.0055003,
+    "longitude": 73.7634212
+  },
+  "sameAs": [
+    "https://www.instagram.com/enspace.in"
+  ],
+  "priceRange": "$$",
+  "areaServed": "Nashik, Maharashtra"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#0E0D0C;
+    --charcoal:#1C1B19;
+    --stone:#C9C1B4;
+    --paper:#F6F4EF;
+    --brass:#9C7A4A;
+    --brass-light:#B79466;
+    --line: rgba(246,244,239,0.14);
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3, .display{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    letter-spacing:-0.01em;
+    color:var(--ink);
+  }
+
+  a{color:inherit; text-decoration:none;}
+  img{display:block; max-width:100%;}
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 32px;
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    position:fixed; top:0; left:0; right:0;
+    z-index:100;
+    background:rgba(246,244,239,0.9);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid rgba(28,27,25,0.08);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 32px;
+    max-width:1180px; margin:0 auto;
+  }
+  .word-logo{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:19px;
+    letter-spacing:0.01em;
+  }
+  .word-logo span{ color:var(--brass); }
+  .nav-links{ display:flex; gap:36px; font-size:14.5px; }
+  .nav-links a{ position:relative; padding-bottom:4px; }
+  .nav-links a::after{
+    content:''; position:absolute; left:0; bottom:0; height:1px; width:0;
+    background:var(--brass); transition:width .25s ease;
+  }
+  .nav-links a:hover::after{ width:100%; }
+  .nav-cta{
+    border:1px solid var(--ink); padding:9px 18px; font-size:13.5px;
+    border-radius:2px;
+  }
+  .nav-cta:hover{ background:var(--ink); color:var(--paper); }
+  .menu-toggle{ display:none; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:168px 0 0;
+    background:var(--paper);
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap:40px;
+    align-items:end;
+  }
+  .hero-kicker{
+    font-size:14.5px; color:var(--brass); margin-bottom:22px;
+    font-weight:500;
+  }
+  .hero h1{
+    font-size:clamp(48px, 6.4vw, 92px);
+    line-height:0.98;
+  }
+  .hero-copy{
+    max-width:360px;
+    font-size:16px;
+    color:#4b4944;
+    padding-bottom:8px;
+  }
+  .hero-copy p{ margin-bottom:26px; }
+  .hero-actions{ display:flex; gap:14px; flex-wrap:wrap; }
+  .btn-primary, .btn-ghost{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:14px 24px; font-size:14.5px; border-radius:2px;
+  }
+  .btn-primary{ background:var(--ink); color:var(--paper); }
+  .btn-primary:hover{ background:var(--brass); }
+  .btn-ghost{ border:1px solid rgba(14,13,12,0.3); }
+  .btn-ghost:hover{ border-color:var(--ink); }
+
+  .hero-image-strip{
+    margin-top:56px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:16px;
+    height:420px;
+  }
+  .hero-image-strip img{ width:100%; height:100%; object-fit:cover; }
+  .hero-image-strip .stat-block{
+    background:var(--charcoal);
+    color:var(--paper);
+    padding:34px;
+    display:flex; flex-direction:column; justify-content:space-between;
+  }
+  .stat-block .num{
+    font-family:'Fraunces', serif;
+    font-size:52px; color:var(--brass-light);
+  }
+  .stat-block .label{ font-size:13.5px; color:var(--stone); max-width:180px; }
+
+  /* ---------- Marquee strip ---------- */
+  .marquee-strip{
+    border-top:1px solid rgba(14,13,12,0.1);
+    border-bottom:1px solid rgba(14,13,12,0.1);
+    padding:20px 0;
+    margin-top:64px;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  .marquee-track{
+    display:inline-flex;
+    gap:56px;
+    animation: scroll 26s linear infinite;
+    font-family:'Fraunces', serif;
+    font-size:22px;
+    color:rgba(14,13,12,0.32);
+  }
+  .marquee-track span{ flex:0 0 auto; }
+  @keyframes scroll{
+    from{ transform:translateX(0); }
+    to{ transform:translateX(-50%); }
+  }
+
+  /* ---------- Section shared ---------- */
+  section{ padding:120px 0; }
+  .section-head{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    gap:40px; margin-bottom:64px;
+  }
+  .section-head h2{ font-size:clamp(32px, 4vw, 46px); max-width:520px; }
+  .section-head p{ max-width:320px; color:#57544d; font-size:15px; padding-bottom:6px; }
+
+  /* ---------- About ---------- */
+  .about{ background:var(--paper); }
+  .about-grid{
+    display:grid; grid-template-columns: 0.9fr 1.1fr; gap:64px; align-items:start;
+  }
+  .about-figure{ position:relative; }
+  .about-figure img{ width:100%; height:520px; object-fit:cover; }
+  .about-figure .tag{
+    position:absolute; bottom:-24px; left:-24px;
+    background:var(--brass); color:var(--paper);
+    padding:20px 26px; font-family:'Fraunces', serif; font-size:15px;
+    max-width:220px; line-height:1.4;
+  }
+  .about-body p{ color:#43413c; margin-bottom:20px; font-size:16px; max-width:520px; }
+  .about-list{ margin-top:36px; display:grid; grid-template-columns:1fr 1fr; gap:24px 32px; }
+  .about-list div{ border-top:1px solid rgba(14,13,12,0.14); padding-top:14px; }
+  .about-list h4{ font-family:'Fraunces', serif; font-size:17px; margin-bottom:6px; font-weight:500; }
+  .about-list p{ font-size:14px; color:#5c594f; }
+
+  /* ---------- Services ---------- */
+  .services{ background:var(--charcoal); color:var(--paper); }
+  .services .section-head h2, .services .section-head p{ color:var(--paper); }
+  .services .section-head p{ color:var(--stone); }
+  .service-list{ border-top:1px solid var(--line); }
+  .service-row{
+    display:grid; grid-template-columns: 90px 1fr 1.4fr 90px;
+    align-items:center;
+    gap:32px;
+    padding:34px 0;
+    border-bottom:1px solid var(--line);
+    transition:background .3s ease;
+  }
+  .service-row:hover{ background:rgba(246,244,239,0.04); }
+  .service-row .idx{ font-size:14px; color:var(--brass-light); font-family:'Fraunces', serif; }
+  .service-row h3{ font-size:26px; color:var(--paper); font-weight:500; }
+  .service-row .desc{ color:var(--stone); font-size:14.5px; max-width:420px; }
+  .service-row .arrow{
+    justify-self:end; font-size:22px; color:var(--stone);
+    transition:transform .3s ease, color .3s ease;
+  }
+  .service-row:hover .arrow{ transform:translateX(6px); color:var(--brass-light); }
+
+  /* ---------- Portfolio ---------- */
+  .portfolio{ background:var(--paper); }
+  .portfolio-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+  }
+  .portfolio-item{
+    position:relative;
+    overflow:hidden;
+    aspect-ratio: 4/5;
+  }
+  .portfolio-item:nth-child(1){ grid-row: span 2; aspect-ratio:4/6.6; }
+  .portfolio-item img{
+    width:100%; height:100%; object-fit:cover;
+    transition:transform .6s ease;
+  }
+  .portfolio-item:hover img{ transform:scale(1.06); }
+  .portfolio-caption{
+    position:absolute; left:0; right:0; bottom:0;
+    padding:20px;
+    background:linear-gradient(to top, rgba(14,13,12,0.75), transparent);
+    color:var(--paper);
+  }
+  .portfolio-caption .tag{ font-size:12.5px; color:var(--stone); text-transform:none; }
+  .portfolio-caption h4{ font-family:'Fraunces', serif; font-size:19px; margin-top:4px; font-weight:500; }
+
+  /* ---------- Testimonials ---------- */
+  .testimonials{ background:var(--stone); }
+  .testi-grid{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:28px;
+  }
+  .testi-card{
+    background:var(--paper);
+    padding:34px;
+    display:flex; flex-direction:column; justify-content:space-between;
+    min-height:230px;
+  }
+  .testi-card p{ font-family:'Fraunces', serif; font-size:18px; line-height:1.5; color:var(--ink); }
+  .testi-name{ margin-top:24px; font-size:13.5px; color:#5c594f; }
+
+  /* ---------- Contact ---------- */
+  .contact{ background:var(--charcoal); color:var(--paper); }
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:64px; }
+  .contact h2{ color:var(--paper); font-size:clamp(32px,4.4vw,50px); max-width:460px; }
+  .contact-copy{ color:var(--stone); max-width:400px; margin-top:20px; font-size:15.5px; }
+  .contact-actions{ margin-top:38px; display:flex; gap:14px; flex-wrap:wrap; }
+  .contact-actions .btn-primary{ background:var(--brass); color:var(--ink); }
+  .contact-actions .btn-primary:hover{ background:var(--brass-light); }
+  .contact-actions .btn-ghost{ border-color:rgba(246,244,239,0.3); color:var(--paper); }
+  .contact-actions .btn-ghost:hover{ border-color:var(--paper); }
+
+  .contact-details{ border-top:1px solid var(--line); padding-top:28px; }
+  .contact-row{ display:flex; justify-content:space-between; padding:18px 0; border-bottom:1px solid var(--line); font-size:15px; }
+  .contact-row span:first-child{ color:var(--stone); }
+
+  /* ---------- Map ---------- */
+  .map-strip{ background:var(--charcoal); padding-bottom:0; }
+  .map-frame{ width:100%; height:380px; border:0; filter:grayscale(0.4) contrast(1.05); display:block; }
+
+  /* ---------- Footer ---------- */
+  footer{ background:var(--ink); color:var(--stone); padding:40px 0; font-size:13.5px; }
+  .footer-row{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+  .footer-row a:hover{ color:var(--paper); }
+
+  /* ---------- WhatsApp Floating Button ---------- */
+  .wa-float{
+    position:fixed;
+    bottom:26px; right:26px;
+    z-index:200;
+    display:flex; align-items:center; gap:10px;
+  }
+  .wa-bubble{
+    max-width:0;
+    overflow:hidden;
+    white-space:nowrap;
+    background:var(--ink);
+    color:var(--paper);
+    font-size:13.5px;
+    border-radius:20px;
+    padding:0;
+    transition:max-width .35s ease, padding .35s ease;
+  }
+  .wa-float:hover .wa-bubble{
+    max-width:220px;
+    padding:10px 16px;
+  }
+  .wa-btn{
+    width:58px; height:58px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 8px 24px rgba(0,0,0,0.25);
+    animation: pulse 2.4s ease-in-out infinite;
+    flex:0 0 auto;
+  }
+  .wa-btn svg{ width:30px; height:30px; }
+  @keyframes pulse{
+    0%,100%{ box-shadow:0 8px 24px rgba(37,211,102,0.35); }
+    50%{ box-shadow:0 8px 30px rgba(37,211,102,0.6); }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px){
+    .nav-links{ display:none; }
+    .hero{ padding-top:130px; }
+    .hero-grid{ grid-template-columns:1fr; }
+    .hero-copy{ max-width:100%; margin-top:24px; }
+    .hero-image-strip{ grid-template-columns:1fr; height:auto; }
+    .hero-image-strip img{ height:280px; }
+    .about-grid{ grid-template-columns:1fr; }
+    .about-figure img{ height:340px; }
+    .about-list{ grid-template-columns:1fr; }
+    .service-row{ grid-template-columns:50px 1fr 24px; row-gap:10px; }
+    .service-row .desc{ grid-column:1/4; max-width:100%; }
+    .portfolio-grid{ grid-template-columns:1fr 1fr; }
+    .portfolio-item:nth-child(1){ grid-column:span 2; aspect-ratio:16/9; }
+    .testi-grid{ grid-template-columns:1fr; }
+    .contact-grid{ grid-template-columns:1fr; gap:40px; }
+    .section-head{ flex-direction:column; align-items:flex-start; gap:14px; }
+    .wa-bubble{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header>
+  <nav class="nav">
+    <a href="#top" class="word-logo">ENSPACE <span>DESIGN</span></a>
+    <div class="nav-links">
+      <a href="#about">Studio</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">Enquire</a>
+  </nav>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<div id="top" class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-kicker">Architecture &amp; Interior Design Studio — Nashik</div>
+        <h1>Spaces built<br>around how<br>you live.</h1>
+      </div>
+      <div class="hero-copy">
+        <p>ENSPACE Design Studio plans and designs residential, commercial, office and retail interiors — from layout and space planning to finishes, furniture and lighting, through to handover.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="https://wa.me/918888815633?text=Hi%20ENSPACE%20Design%20Studio%2C%20I%27d%20like%20to%20know%20more%20about%20your%20interior%20design%20services." target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn-ghost" href="#work">View our work</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image-strip">
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1400&auto=format&fit=crop" alt="Modern residential living room designed by ENSPACE Design Studio">
+      <div class="stat-block">
+        <div>
+          <div class="num">4</div>
+          <div class="label">Design verticals — Residential, Commercial, Office &amp; Retail</div>
+        </div>
+        <div>
+          <div class="num">360°</div>
+          <div class="label">Concept to handover, managed end to end</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Residential Interiors</span>
+      <span>—</span>
+      <span>Commercial Spaces</span>
+      <span>—</span>
+      <span>Office Design</span>
+      <span>—</span>
+      <span>Retail Interiors</span>
+      <span>—</span>
+      <span>Space Planning</span>
+      <span>—</span>
+      <span>Residential Interiors</span>
+      <span>—</span>
+      <span>Commercial Spaces</span>
+      <span>—</span>
+      <span>Office Design</span>
+      <span>—</span>
+      <span>Retail Interiors</span>
+      <span>—</span>
+      <span>Space Planning</span>
+      <span>—</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-figure">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop" alt="Interior design studio at work">
+        <div class="tag">Every project starts with how a space will actually be used.</div>
+      </div>
+      <div class="about-body">
+        <h2 style="font-size:clamp(28px,3.4vw,40px); margin-bottom:22px;">A studio for people who care about the details of a space.</h2>
+        <p>ENSPACE Design Studio works across residential, commercial, office and retail projects. We plan layouts, choose finishes and fixtures, source furniture and lighting, and see each design through construction and installation.</p>
+        <p>Our approach stays close to the brief — the way you move through a home, the way a brand shows up in a retail space, the way a team works in an office. The design follows from that, not the other way round.</p>
+        <div class="about-list">
+          <div>
+            <h4>Space planning</h4>
+            <p>Layouts built around movement, light and daily use.</p>
+          </div>
+          <div>
+            <h4>Materials &amp; finishes</h4>
+            <p>Considered material palettes suited to budget and durability.</p>
+          </div>
+          <div>
+            <h4>Furniture &amp; lighting</h4>
+            <p>Selection and sourcing aligned with the overall design.</p>
+          </div>
+          <div>
+            <h4>Execution support</h4>
+            <p>On-ground coordination from concept through to handover.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Four kinds of spaces. One design process.</h2>
+      <p>Whatever the brief, we run the same disciplined process — layout first, then materials, furniture and light.</p>
+    </div>
+
+    <div class="service-list">
+      <div class="service-row">
+        <div class="idx">01</div>
+        <h3>Residential</h3>
+        <div class="desc">Full-home and single-room interiors — apartments, villas and renovations, designed around how a household actually lives.</div>
+        <div class="arrow">→</div>
+      </div>
+      <div class="service-row">
+        <div class="idx">02</div>
+        <h3>Commercial</h3>
+        <div class="desc">Interiors for restaurants, clinics, showrooms and other commercial spaces, built to hold up under daily use.</div>
+        <div class="arrow">→</div>
+      </div>
+      <div class="service-row">
+        <div class="idx">03</div>
+        <h3>Office</h3>
+        <div class="desc">Workspaces planned for focus, collaboration and brand identity, from single cabins to full floor plates.</div>
+        <div class="arrow">→</div>
+      </div>
+      <div class="service-row">
+        <div class="idx">04</div>
+        <h3>Retail</h3>
+        <div class="desc">Store and showroom interiors that support the customer journey and put the product first.</div>
+        <div class="arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ===================== -->
+<section id="work" class="portfolio">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>A few spaces we've shaped.</h2>
+      <p>A sample of work across residential, office and retail interiors.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200&auto=format&fit=crop" alt="Residential bedroom interior design project">
+        <div class="portfolio-caption">
+          <div class="tag">Residential</div>
+          <h4>Private Residence, Bedroom Suite</h4>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop" alt="Modern kitchen interior design">
+        <div class="portfolio-caption">
+          <div class="tag">Residential</div>
+          <h4>Modular Kitchen &amp; Dining</h4>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop" alt="Living room interior design project">
+        <div class="portfolio-caption">
+          <div class="tag">Residential</div>
+          <h4>Apartment Living Room</h4>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?q=80&w=1200&auto=format&fit=crop" alt="Office interior design project">
+        <div class="portfolio-caption">
+          <div class="tag">Office</div>
+          <h4>Corporate Workspace</h4>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1200&auto=format&fit=crop" alt="Retail store interior design">
+        <div class="portfolio-caption">
+          <div class="tag">Retail</div>
+          <h4>Retail Showroom Fit-out</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="testimonials" class="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What clients say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p>"They understood exactly how we wanted to use the space before drawing a single layout."</p>
+        <div class="testi-name">— Residential client</div>
+      </div>
+      <div class="testi-card">
+        <p>"Our store fit-out was handled from design through to execution without us having to chase anything."</p>
+        <div class="testi-name">— Retail client</div>
+      </div>
+      <div class="testi-card">
+        <p>"The office layout balanced open collaboration areas with quiet, focused work zones really well."</p>
+        <div class="testi-name">— Office client</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Let's talk about your space.</h2>
+        <p class="contact-copy">Tell us a little about your project — residential, commercial, office or retail — and we'll get back to you with next steps.</p>
+        <div class="contact-actions">
+          <a class="btn-primary" href="https://wa.me/918888815633?text=Hi%20ENSPACE%20Design%20Studio%2C%20I%27d%20like%20to%20know%20more%20about%20your%20interior%20design%20services." target="_blank" rel="noopener">Message us on WhatsApp</a>
+          <a class="btn-ghost" href="https://instagram.com/enspace.in" target="_blank" rel="noopener">Follow on Instagram</a>
+        </div>
+      </div>
+      <div class="contact-details">
+        <div class="contact-row"><span>Location</span><span>Nashik, Maharashtra</span></div>
+        <div class="contact-row"><span>Phone / WhatsApp</span><span>+91 88888 15633</span></div>
+        <div class="contact-row"><span>Instagram</span><span>@enspace.in</span></div>
+        <div class="contact-row"><span>Services</span><span>Residential · Commercial · Office · Retail</span></div>
+        <div class="contact-row"><span>Enquiries</span><span>Open Mon – Sat</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MAP ===================== -->
+<div class="map-strip">
+  <iframe class="map-frame" src="https://www.google.com/maps?q=20.0055003,73.7634212&z=14&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="ENSPACE Design Studio location in Nashik"></iframe>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="wrap footer-row">
+    <div>© <span id="year"></span> ENSPACE Design Studio. All rights reserved.</div>
+    <div style="display:flex; gap:24px;">
+      <a href="https://instagram.com/enspace.in" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/918888815633" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== WHATSAPP FLOAT BUTTON ===================== -->
+<a class="wa-float" href="https://wa.me/918888815633?text=Hi%20ENSPACE%20Design%20Studio%2C%20I%27d%20like%20to%20know%20more%20about%20your%20interior%20design%20services." target="_blank" rel="noopener" aria-label="Chat with ENSPACE Design Studio on WhatsApp">
+  <span class="wa-bubble">Hi! Need help with a space? 👋</span>
+  <span class="wa-btn">
+    <svg viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.001 3C9.096 3 3.5 8.596 3.5 15.5c0 2.42.7 4.68 1.912 6.59L3 29l7.104-2.36A12.44 12.44 0 0016 28c6.905 0 12.5-5.596 12.5-12.5S22.906 3 16.001 3zm0 22.7a10.16 10.16 0 01-5.19-1.42l-.372-.222-4.21 1.4 1.42-4.104-.242-.386a10.17 10.17 0 01-1.578-5.468c0-5.634 4.585-10.2 10.172-10.2 5.586 0 10.17 4.566 10.17 10.2 0 5.633-4.584 10.2-10.17 10.2zm5.573-7.64c-.305-.153-1.806-.89-2.086-.992-.28-.102-.484-.153-.688.153-.204.306-.79.992-.968 1.196-.178.204-.356.23-.66.077-.305-.153-1.288-.475-2.454-1.514-.907-.81-1.52-1.81-1.698-2.116-.178-.306-.019-.47.134-.623.137-.137.305-.357.458-.535.153-.178.204-.306.306-.51.102-.204.05-.383-.026-.535-.076-.153-.687-1.657-.942-2.27-.248-.596-.5-.516-.687-.526-.178-.008-.382-.01-.586-.01-.204 0-.535.077-.815.383-.28.306-1.07 1.046-1.07 2.55 0 1.505 1.095 2.958 1.248 3.163.153.204 2.155 3.29 5.223 4.614.73.315 1.298.503 1.742.644.732.233 1.398.2 1.925.121.587-.088 1.806-.738 2.06-1.451.255-.712.255-1.323.178-1.451-.076-.128-.28-.204-.586-.357z"/>
+    </svg>
+  </span>
+</a>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
